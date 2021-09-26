@@ -21,3 +21,9 @@ export function SystemUiconsSun(props) {
     <svg width="1em" height="1em" viewBox="0 0 21 21" {...props}><g fill="none" fillRule="evenodd" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"><g opacity=".3"><path d="M10.5 14.5c2.219 0 4-1.763 4-3.982a4.003 4.003 0 0 0-4-4.018c-2.219 0-4 1.781-4 4c0 2.22 1.781 4 4 4z"></path><path d="M4.136 4.136L5.55 5.55"></path><path d="M15.45 15.45l1.414 1.414"></path><path d="M1.5 10.5h2"></path><path d="M17.5 10.5h2"></path><g><path d="M4.136 16.864L5.55 15.45"></path><path d="M15.45 5.55l1.414-1.414"></path></g><g><path d="M10.5 19.5v-2"></path><path d="M10.5 3.5v-2"></path></g></g><g transform="translate(-210 -1)"><path d="M220.5 2.5v2"></path><path d="M227 5l-1.5 1.5"></path><circle cx="220.5" cy="11.5" r="4"></circle><path d="M214 5l1.5 1.5"></path><path d="M220.5 20.5v-2"></path><path d="M227 18l-1.5-1.5"></path><path d="M214 18l1.5-1.5"></path><path d="M211.5 11.5h2"></path><path d="M227.5 11.5h2"></path></g></g></svg>
   )
 }
+
+export function GgMenuRightAlt(props) {
+  return (
+    <svg width="1em" height="1em" viewBox="0 0 24 24" {...props}><g fill="none"><path d="M4 6a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1z" fill="currentColor"></path><path d="M4 18a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H5a1 1 0 0 1-1-1z" fill="currentColor"></path><path d="M11 11a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2h-8z" fill="currentColor"></path></g></svg>
+  )
+}
